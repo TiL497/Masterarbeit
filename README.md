@@ -26,4 +26,8 @@ Repository zur Datensicherung der Masterarbeit "Künstliche Intelligenz in FPGAs
 3. Programm mit app_build.sh kompilieren
 4. src/bin auf FPGA kopieren
 5. Programm ausführen:
-   - ./tracking.exe <Kamera(0)/Dateipfad(1)> <HW-Processing(0)/SW-Processing(1)> Yolo_Tracking.xmodel dpu.xclbin <Ordner mit Bildern> <ROI Bild im 416x416 Pixel Format>
+   - ./tracking.exe <Daten> <Processing> Yolo_Tracking.xmodel dpu.xclbin <Bildpfad> <ROI>
+   - Daten: 0 = USB-Kamera, 1 = Dateipfad
+   - Processing: 0 = HW-Processing, 1 = SW-Processing
+   - Bildpfad: relativer Pfad zum Ordner mit Bildern (Reihenfolge von 0.jpg bis xx.jpg)
+   - ROI: Region of Interest Bild im 416x416 Pixel Format (Pflichtfeld, Letterboxing beachten!) 
