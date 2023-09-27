@@ -17,7 +17,7 @@ Repository zur Datensicherung der Masterarbeit "Künstliche Intelligenz in FPGAs
 - Kernel Objektdateien
 - Konfigurationsdateien für Packaging und Kernel-Linking
 - Base-Plattform
-- Common-Image / Custom-Image
+- Xilinx Common-Image / Petalinux Custom-Image
 
 ## How-To
 
